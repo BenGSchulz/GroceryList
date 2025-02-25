@@ -1,0 +1,39 @@
+.grocery-item {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.25rem;
+}
+
+.grocery-item:not(:last-child) {
+  border-bottom: 1px solid #000;
+}
+
+.grocery-item__name--done {
+  text-decoration: line-through;
+}
+
+.grocery-item__check {
+  visibility: visible;
+}
+
+.grocery-item__name {
+  flex: 1 1 33%;
+}
+
+.grocery-item__price {
+  flex: 1 1 66%;
+}
+
+.grocery-item__remove {
+  background: transparent;
+  border: 1px solid var(--color-danger);
+  color: var(--color-danger);
+  border-radius: 0.25rem;
+}
+
+.grocery-item__remove:hover {
+  background: var(--color-danger);
+  color: #fff;
+}

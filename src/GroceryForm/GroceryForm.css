@@ -1,0 +1,10 @@
+.grocery-form {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 0.25rem;
+}
+
+.grocery-form__input {
+  display: block;
+}

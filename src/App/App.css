@@ -1,0 +1,13 @@
+body {
+  --color-danger: #f11;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.data__over-budget {
+  color: var(--color-danger);
+}

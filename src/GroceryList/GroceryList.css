@@ -1,0 +1,7 @@
+.grocery-list {
+  margin: 0;
+  padding: 0.25rem;
+  border: 1px solid;
+  border-radius: 0.25rem;
+  max-width: 500px;
+}
